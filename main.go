@@ -12,8 +12,8 @@ import (
 	"github.com/emersion/go-imap/server"
 	"github.com/emersion/go-smtp"
 	"github.com/gorilla/mux"
-	_ "github.com/mattn/go-sqlite3"
 	"golang.org/x/crypto/bcrypt"
+	_ "modernc.org/sqlite"
 )
 
 type EmailServer struct {
