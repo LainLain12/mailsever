@@ -1,12 +1,12 @@
 module email-server
 
-go 1.21
+go 1.24.0
 
 require (
 	github.com/emersion/go-imap v1.2.1
 	github.com/emersion/go-smtp v0.16.0
 	github.com/gorilla/mux v1.8.0
-	golang.org/x/crypto v0.13.0
+	golang.org/x/crypto v0.45.0
 	modernc.org/sqlite v1.26.0
 )
 
@@ -18,10 +18,11 @@ require (
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/sys v0.12.0 // indirect
-	golang.org/x/text v0.13.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/sync v0.18.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	lukechampine.com/uint128 v1.2.0 // indirect
 	modernc.org/cc/v3 v3.40.0 // indirect
 	modernc.org/ccgo/v3 v3.16.13 // indirect
